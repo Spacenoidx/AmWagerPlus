@@ -9,3 +9,5 @@ response = requests.get(url, headers=headers)
 
 for i in response.json()['ToteResponse']['Events']:
     print(i)
+    
+### https://wagerapi.amwager.com/swagger/ui/index#!/DataProducts/DataProducts_DownloadDataProduct
